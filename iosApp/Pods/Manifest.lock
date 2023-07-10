@@ -1,15 +1,22 @@
 PODS:
-  - shared (1.0)
+  - Alamofire (5.7.1)
+  - shared (1.0):
+    - Alamofire (~> 5.7.1)
 
 DEPENDENCIES:
   - shared (from `../shared`)
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
 
 EXTERNAL SOURCES:
   shared:
     :path: "../shared"
 
 SPEC CHECKSUMS:
-  shared: 2d3b24a8fe27b7d9e65b8d075a9672fbc6a1aa10
+  Alamofire: 0123a34370cb170936ae79a8df46cc62b2edeb88
+  shared: 6b5d35fb8e6a73b4699258fcf1b2b88c5e465cb9
 
 PODFILE CHECKSUM: f282da88f39e69507b0a255187c8a6b644477756
 

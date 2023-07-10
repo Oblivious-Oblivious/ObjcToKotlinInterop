@@ -13,6 +13,11 @@
   "platforms": {
     "ios": "14.1"
   },
+  "dependencies": {
+    "Alamofire": [
+      "~> 5.7.1"
+    ]
+  },
   "pod_target_xcconfig": {
     "KOTLIN_PROJECT_PATH": ":shared",
     "PRODUCT_MODULE_NAME": "shared"

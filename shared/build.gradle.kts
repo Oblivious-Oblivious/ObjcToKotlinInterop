@@ -28,6 +28,10 @@ kotlin {
         framework {
             baseName = "shared"
         }
+
+        pod("Alamofire") {
+            version = "~> 5.7.1"
+        }
     }
     
     sourceSets {
